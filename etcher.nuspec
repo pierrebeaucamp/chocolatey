@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>etcher</id>
+    <title>Etcher</title>
+    <version>1.0.0-beta19</version>
+    <authors>resin.io</authors>
+    <owners>resin.io</owners>
+    <summary>Burn images to SD cards and USB drives, safe and easy.</summary>
+    <description>
+      Etcher is a powerful OS image flasher built with web technologies to
+      ensure flashing an SDCard or USB drive is a pleasant and safe experience.
+      It protects you from accidentally writing to your hard-drives, ensures
+      every byte of data was written correctly and much more.
+    </description>
+    <projectUrl>https://etcher.io/</projectUrl>
+    <licenseUrl>https://github.com/resin-io/etcher/blob/master/LICENSE</licenseUrl>
+    <requireLicenseAcceptance>true</requireLicenseAcceptance>
+    <iconUrl>https://cdn.rawgit.com/resin-io/etcher/98284bd5/assets/icon.png</iconUrl>
+    <bugTrackerUrl>https://github.com/resin-io/etcher/issues</bugTrackerUrl>
+    <docsUrl>https://github.com/resin-io/etcher/wiki</docsUrl>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools"/>
+  </files>
+</package>
+
